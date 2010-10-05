@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70876C2125BE8BC00A69ED0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70876C1125BE8BC00A69ED0 /* UIKit.framework */; };
+		A70876C4125BE8BC00A69ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70876C3125BE8BC00A69ED0 /* Foundation.framework */; };
+		A70876C6125BE8BC00A69ED0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70876C5125BE8BC00A69ED0 /* CoreGraphics.framework */; };
+		A70876CB125BE8BC00A69ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A70876C9125BE8BC00A69ED0 /* InfoPlist.strings */; };
+		A70876CD125BE8BC00A69ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A70876CC125BE8BC00A69ED0 /* main.m */; };
+		A70876D0125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A70876CF125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.m */; };
+		A70876D3125BE8BC00A69ED0 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70876D1125BE8BC00A69ED0 /* MainWindow_iPhone.xib */; };
+		A70876D6125BE8BC00A69ED0 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70876D4125BE8BC00A69ED0 /* MainWindow_iPad.xib */; };
+		A70876D9125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A70876D8125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m */; };
+		A70876DC125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A70876DB125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A70876BE125BE8BC00A69ED0 /* NeverSnooze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverSnooze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70876C1125BE8BC00A69ED0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A70876C3125BE8BC00A69ED0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A70876C5125BE8BC00A69ED0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A70876C7125BE8BC00A69ED0 /* NeverSnooze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeverSnooze-Info.plist"; sourceTree = "<group>"; };
+		A70876C8125BE8BC00A69ED0 /* NeverSnooze_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeverSnooze_Prefix.pch; sourceTree = "<group>"; };
+		A70876CA125BE8BC00A69ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A70876CC125BE8BC00A69ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A70876CE125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeverSnoozeAppDelegate.h; sourceTree = "<group>"; };
+		A70876CF125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverSnoozeAppDelegate.m; sourceTree = "<group>"; };
+		A70876D2125BE8BC00A69ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		A70876D5125BE8BC00A69ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		A70876D7125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeverSnoozeAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		A70876D8125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverSnoozeAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		A70876DA125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeverSnoozeAppDelegate_iPad.h; sourceTree = "<group>"; };
+		A70876DB125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverSnoozeAppDelegate_iPad.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70876BB125BE8BC00A69ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70876C2125BE8BC00A69ED0 /* UIKit.framework in Frameworks */,
+				A70876C4125BE8BC00A69ED0 /* Foundation.framework in Frameworks */,
+				A70876C6125BE8BC00A69ED0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70876AD125BE8BC00A69ED0 = {
+			isa = PBXGroup;
+			children = (
+				A70876B4125BE8BC00A69ED0 /* iPhone */,
+				A70876B5125BE8BC00A69ED0 /* iPad */,
+				A70876B6125BE8BC00A69ED0 /* Classes */,
+				A70876B7125BE8BC00A69ED0 /* Other Sources */,
+				A70876B8125BE8BC00A69ED0 /* Resources */,
+				A70876B9125BE8BC00A69ED0 /* Frameworks */,
+				A70876BF125BE8BC00A69ED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A70876B4125BE8BC00A69ED0 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A70876D1125BE8BC00A69ED0 /* MainWindow_iPhone.xib */,
+				A70876D7125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.h */,
+				A70876D8125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		A70876B5125BE8BC00A69ED0 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A70876D4125BE8BC00A69ED0 /* MainWindow_iPad.xib */,
+				A70876DA125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.h */,
+				A70876DB125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		A70876B6125BE8BC00A69ED0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A70876CE125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.h */,
+				A70876CF125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A70876B7125BE8BC00A69ED0 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A70876C8125BE8BC00A69ED0 /* NeverSnooze_Prefix.pch */,
+				A70876CC125BE8BC00A69ED0 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A70876B8125BE8BC00A69ED0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A70876C7125BE8BC00A69ED0 /* NeverSnooze-Info.plist */,
+				A70876C9125BE8BC00A69ED0 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A70876B9125BE8BC00A69ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A70876C1125BE8BC00A69ED0 /* UIKit.framework */,
+				A70876C3125BE8BC00A69ED0 /* Foundation.framework */,
+				A70876C5125BE8BC00A69ED0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A70876BF125BE8BC00A69ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A70876BE125BE8BC00A69ED0 /* NeverSnooze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70876BD125BE8BC00A69ED0 /* NeverSnooze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70876DF125BE8BC00A69ED0 /* Build configuration list for PBXNativeTarget "NeverSnooze" */;
+			buildPhases = (
+				A70876BA125BE8BC00A69ED0 /* Sources */,
+				A70876BB125BE8BC00A69ED0 /* Frameworks */,
+				A70876BC125BE8BC00A69ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeverSnooze;
+			productName = NeverSnooze;
+			productReference = A70876BE125BE8BC00A69ED0 /* NeverSnooze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70876AF125BE8BC00A69ED0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A70876B2125BE8BC00A69ED0 /* Build configuration list for PBXProject "NeverSnooze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A70876AD125BE8BC00A69ED0;
+			productRefGroup = A70876BF125BE8BC00A69ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70876BD125BE8BC00A69ED0 /* NeverSnooze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70876BC125BE8BC00A69ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70876CB125BE8BC00A69ED0 /* InfoPlist.strings in Resources */,
+				A70876D3125BE8BC00A69ED0 /* MainWindow_iPhone.xib in Resources */,
+				A70876D6125BE8BC00A69ED0 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70876BA125BE8BC00A69ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70876CD125BE8BC00A69ED0 /* main.m in Sources */,
+				A70876D0125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.m in Sources */,
+				A70876D9125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m in Sources */,
+				A70876DC125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A70876C9125BE8BC00A69ED0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A70876CA125BE8BC00A69ED0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A70876D1125BE8BC00A69ED0 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A70876D2125BE8BC00A69ED0 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A70876D4125BE8BC00A69ED0 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A70876D5125BE8BC00A69ED0 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A70876DD125BE8BC00A69ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A70876DE125BE8BC00A69ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A70876E0125BE8BC00A69ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NeverSnooze_Prefix.pch;
+				INFOPLIST_FILE = "NeverSnooze-Info.plist";
+				PRODUCT_NAME = NeverSnooze;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A70876E1125BE8BC00A69ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NeverSnooze_Prefix.pch;
+				INFOPLIST_FILE = "NeverSnooze-Info.plist";
+				PRODUCT_NAME = NeverSnooze;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70876B2125BE8BC00A69ED0 /* Build configuration list for PBXProject "NeverSnooze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70876DD125BE8BC00A69ED0 /* Debug */,
+				A70876DE125BE8BC00A69ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70876DF125BE8BC00A69ED0 /* Build configuration list for PBXNativeTarget "NeverSnooze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70876E0125BE8BC00A69ED0 /* Debug */,
+				A70876E1125BE8BC00A69ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70876AF125BE8BC00A69ED0 /* Project object */;
+}
