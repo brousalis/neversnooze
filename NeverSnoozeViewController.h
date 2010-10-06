@@ -26,7 +26,5 @@
 - (void) cancelAlarms;
 
 - (void) showAlert:(NSString *) message;
-- (void) disableAutoLock: (BOOL) disabled;
-- (void) enableDim: (BOOL) enabled;
 
 @end

@@ -18,8 +18,7 @@
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
 	
-	idleTimerDisabled = [[UIApplication sharedApplication] isIdleTimerDisabled];
-	wasEnterForeground = NO;
+    wasEnterForeground = NO;
 	didEnterBackground = NO;
     
     return YES;
@@ -45,8 +44,7 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {	
-	[viewController enableDim:NO];
-	[viewController disableAutoLock:idleTimerDisabled]; 
+	
 }
 
 - (void)dealloc {

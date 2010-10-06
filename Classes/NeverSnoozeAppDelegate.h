@@ -14,8 +14,7 @@
     UIWindow *window;
     NeverSnoozeViewController *viewController;
     
-    BOOL idleTimerDisabled;
-	BOOL didEnterBackground;
+    BOOL didEnterBackground;
 	BOOL wasEnterForeground;
 }
 

@@ -45,23 +45,12 @@
 
 - (void) startTimer:(int) seconds {
 	[self scheduleAlarm:seconds];
-	[self disableAutoLock:YES];
-    [self enableDim:YES];
 }
 
 - (void) endTimer
 {
-	[[UIDevice currentDevice] setProximityMonitoringEnabled:NO];	
 	[self cancelAlarms];
 	[self showAlert:@"Alarm!"];
-}
-
-- (void) disableAutoLock: (BOOL) disabled {
-    [[UIApplication sharedApplication] setIdleTimerDisabled:YES]; 
-}
-
-- (void) enableDim:(BOOL) enabled {
-    [[UIDevice currentDevice] setProximityMonitoringEnabled:enabled];
 }
 
 #pragma mark -
@@ -89,13 +78,11 @@
 	if (NSClassFromString(@"UILocalNotification")) {	
 		UIApplication *app = [UIApplication sharedApplication];
 		NSArray *oldNotifications = [app scheduledLocalNotifications];
-		
 		if ([oldNotifications count] > 0)
 			[app cancelAllLocalNotifications];	
 	}
 	else  {
-		// unschedule timers
-		[NSTimer cancelPreviousPerformRequestsWithTarget:self selector:@selector(EndTimer) object:nil];
+		[NSTimer cancelPreviousPerformRequestsWithTarget:self selector:@selector(endTimer) object:nil];
 	}
 	
 }
