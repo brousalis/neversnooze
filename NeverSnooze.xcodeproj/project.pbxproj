@@ -17,6 +17,9 @@
 		A70876D6125BE8BC00A69ED0 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70876D4125BE8BC00A69ED0 /* MainWindow_iPad.xib */; };
 		A70876D9125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A70876D8125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m */; };
 		A70876DC125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A70876DB125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m */; };
+		A70876F1125BE94A00A69ED0 /* NeverSnoozeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70876F0125BE94A00A69ED0 /* NeverSnoozeViewController.m */; };
+		A70876F3125BE96000A69ED0 /* NeverSnoozeView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70876F2125BE96000A69ED0 /* NeverSnoozeView_iPad.xib */; };
+		A70876F5125BE96E00A69ED0 /* NeverSnoozeView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70876F4125BE96E00A69ED0 /* NeverSnoozeView_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,10 @@
 		A70876D8125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverSnoozeAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		A70876DA125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeverSnoozeAppDelegate_iPad.h; sourceTree = "<group>"; };
 		A70876DB125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverSnoozeAppDelegate_iPad.m; sourceTree = "<group>"; };
+		A70876EF125BE94A00A69ED0 /* NeverSnoozeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeverSnoozeViewController.h; path = ../NeverSnoozeViewController.h; sourceTree = "<group>"; };
+		A70876F0125BE94A00A69ED0 /* NeverSnoozeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NeverSnoozeViewController.m; path = ../NeverSnoozeViewController.m; sourceTree = "<group>"; };
+		A70876F2125BE96000A69ED0 /* NeverSnoozeView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NeverSnoozeView_iPad.xib; path = ../NeverSnoozeView_iPad.xib; sourceTree = "<group>"; };
+		A70876F4125BE96E00A69ED0 /* NeverSnoozeView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NeverSnoozeView_iPhone.xib; path = ../NeverSnoozeView_iPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 		A70876B4125BE8BC00A69ED0 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				A70876F4125BE96E00A69ED0 /* NeverSnoozeView_iPhone.xib */,
 				A70876D1125BE8BC00A69ED0 /* MainWindow_iPhone.xib */,
 				A70876D7125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.h */,
 				A70876D8125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m */,
@@ -78,6 +86,7 @@
 		A70876B5125BE8BC00A69ED0 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
+				A70876F2125BE96000A69ED0 /* NeverSnoozeView_iPad.xib */,
 				A70876D4125BE8BC00A69ED0 /* MainWindow_iPad.xib */,
 				A70876DA125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.h */,
 				A70876DB125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m */,
@@ -88,6 +97,8 @@
 		A70876B6125BE8BC00A69ED0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A70876EF125BE94A00A69ED0 /* NeverSnoozeViewController.h */,
+				A70876F0125BE94A00A69ED0 /* NeverSnoozeViewController.m */,
 				A70876CE125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.h */,
 				A70876CF125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.m */,
 			);
@@ -180,6 +191,8 @@
 				A70876CB125BE8BC00A69ED0 /* InfoPlist.strings in Resources */,
 				A70876D3125BE8BC00A69ED0 /* MainWindow_iPhone.xib in Resources */,
 				A70876D6125BE8BC00A69ED0 /* MainWindow_iPad.xib in Resources */,
+				A70876F3125BE96000A69ED0 /* NeverSnoozeView_iPad.xib in Resources */,
+				A70876F5125BE96E00A69ED0 /* NeverSnoozeView_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +207,7 @@
 				A70876D0125BE8BC00A69ED0 /* NeverSnoozeAppDelegate.m in Sources */,
 				A70876D9125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPhone.m in Sources */,
 				A70876DC125BE8BC00A69ED0 /* NeverSnoozeAppDelegate_iPad.m in Sources */,
+				A70876F1125BE94A00A69ED0 /* NeverSnoozeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,26 +7,50 @@
 //
 
 #import "NeverSnoozeAppDelegate.h"
+#import "NeverSnoozeViewController.h"
 
 @implementation NeverSnoozeAppDelegate
 
+@synthesize window, viewController;
 
-@synthesize window;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    // Override point for customization after application launch.
+    [window addSubview:viewController.view];
     [window makeKeyAndVisible];
+	
+	idleTimerDisabled = [[UIApplication sharedApplication] isIdleTimerDisabled];
+	wasEnterForeground = NO;
+	didEnterBackground = NO;
+    
     return YES;
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
+- (void)applicationWillResignActive:(UIApplication *)application { }
+- (void)applicationDidBecomeActive:(UIApplication *)application { }
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+	didEnterBackground = YES;
+}
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+	wasEnterForeground = YES;
+}
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+	if (wasEnterForeground || didEnterBackground) {
+		wasEnterForeground = NO;
+		didEnterBackground = NO;
+	}
+	else {
+		[viewController endTimer];
+		didEnterBackground = NO;
+	}
+}
 
-    // Save data if appropriate.
+- (void)applicationWillTerminate:(UIApplication *)application {	
+	[viewController enableDim:NO];
+	[viewController disableAutoLock:idleTimerDisabled]; 
 }
 
 - (void)dealloc {
-
+    [viewController release];
     [window release];
     [super dealloc];
 }

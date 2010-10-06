@@ -8,10 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class NeverSnoozeViewController;
+
 @interface NeverSnoozeAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+    NeverSnoozeViewController *viewController;
+    
+    BOOL idleTimerDisabled;
+	BOOL didEnterBackground;
+	BOOL wasEnterForeground;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet NeverSnoozeViewController *viewController;
 
 @end

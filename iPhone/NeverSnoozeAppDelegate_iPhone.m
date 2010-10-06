@@ -7,19 +7,15 @@
 //
 
 #import "NeverSnoozeAppDelegate_iPhone.h"
+#import "NeverSnoozeViewController.h"
 
 @implementation NeverSnoozeAppDelegate_iPhone
-
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-	
-    // Override point for customization after application launch.
-	
-    [window makeKeyAndVisible];
-	
+	[super application:application didFinishLaunchingWithOptions:launchOptions];
 	return YES;
 }
 
