@@ -15,32 +15,35 @@
 		A72BCC2A1264198B00B5F410 /* NeverSnoozeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BCC291264198B00B5F410 /* NeverSnoozeAppDelegate.m */; };
 		A72BCC2D1264198C00B5F410 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72BCC2B1264198C00B5F410 /* MainWindow.xib */; };
 		A72BCC391264198C00B5F410 /* ClockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72BCC371264198C00B5F410 /* ClockView.xib */; };
-		A72BCC48126419D700B5F410 /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A72BCC45126419D700B5F410 /* 11-clock.png */; };
-		A72BCC49126419D700B5F410 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = A72BCC46126419D700B5F410 /* 20-gear2.png */; };
-		A72BCC4A126419D700B5F410 /* 78-stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = A72BCC47126419D700B5F410 /* 78-stopwatch.png */; };
-		A73A41FF126E392F009BC468 /* AlarmListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73A41FE126E392F009BC468 /* AlarmListController.m */; };
-		A78346551288EF3F004CF24D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A78346541288EF3F004CF24D /* bg.png */; };
-		A78346601288F326004CF24D /* alarmbg.png in Resources */ = {isa = PBXBuildFile; fileRef = A783465F1288F326004CF24D /* alarmbg.png */; };
+		A77E58F21298807100F39BA9 /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E21298807100F39BA9 /* 11-clock.png */; };
+		A77E58F31298807100F39BA9 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E31298807100F39BA9 /* 19-gear.png */; };
+		A77E58F41298807100F39BA9 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E41298807100F39BA9 /* 20-gear2.png */; };
+		A77E58F51298807100F39BA9 /* 78-stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E51298807100F39BA9 /* 78-stopwatch.png */; };
+		A77E58F61298807100F39BA9 /* alarmbg.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E61298807100F39BA9 /* alarmbg.png */; };
+		A77E58F71298807100F39BA9 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E71298807100F39BA9 /* bg.png */; };
+		A77E58F81298807100F39BA9 /* re.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E81298807100F39BA9 /* re.png */; };
+		A77E58F91298807100F39BA9 /* rebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58E91298807100F39BA9 /* rebutton.png */; };
+		A77E58FA1298807100F39BA9 /* rebuttonhover.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58EA1298807100F39BA9 /* rebuttonhover.png */; };
+		A77E58FB1298807100F39BA9 /* redelete.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58EB1298807100F39BA9 /* redelete.png */; };
+		A77E58FC1298807100F39BA9 /* reequationhover.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58EC1298807100F39BA9 /* reequationhover.png */; };
+		A77E58FD1298807100F39BA9 /* renewequation.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58ED1298807100F39BA9 /* renewequation.png */; };
+		A77E58FE1298807100F39BA9 /* renotepad.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58EE1298807100F39BA9 /* renotepad.png */; };
+		A77E58FF1298807100F39BA9 /* resolve.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58EF1298807100F39BA9 /* resolve.png */; };
+		A77E59001298807100F39BA9 /* resolvehover.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58F01298807100F39BA9 /* resolvehover.png */; };
+		A77E59011298807100F39BA9 /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E58F11298807100F39BA9 /* review.png */; };
+		A77E59041298808700F39BA9 /* alarm_clock_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A77E59031298808700F39BA9 /* alarm_clock_2.wav */; };
+		A77E590B129880CB00F39BA9 /* AlarmListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E5908129880CB00F39BA9 /* AlarmListController.m */; };
+		A77E590C129880CB00F39BA9 /* EquationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E590A129880CB00F39BA9 /* EquationViewController.m */; };
+		A77E59181298810200F39BA9 /* AdditionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E59101298810200F39BA9 /* AdditionNode.m */; };
+		A77E59191298810200F39BA9 /* RandomEquation.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E59131298810200F39BA9 /* RandomEquation.m */; };
+		A77E591A1298810200F39BA9 /* SubtractionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E59151298810200F39BA9 /* SubtractionNode.m */; };
+		A77E591B1298810200F39BA9 /* ValueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E59171298810200F39BA9 /* ValueNode.m */; };
 		A796723A128725C6003A3C9D /* Alarms.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7967239128725C6003A3C9D /* Alarms.plist */; };
 		A796730D12878412003A3C9D /* EditableDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A796730C12878412003A3C9D /* EditableDetailCell.m */; };
-		A79673CA1287AD9E003A3C9D /* alarm_clock_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A79673C91287AD9E003A3C9D /* alarm_clock_2.wav */; };
 		A7985968128CF0780020B9B3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7985967128CF0780020B9B3 /* AudioToolbox.framework */; };
 		A798597C128CF4660020B9B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A798597B128CF4660020B9B3 /* AVFoundation.framework */; };
 		A7AD8DCC1285F4B200D4E145 /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8DCB1285F4B200D4E145 /* Alarm.m */; };
 		A7AD8E2F1286127500D4E145 /* AlarmEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8E2E1286127500D4E145 /* AlarmEditController.m */; };
-		A7D4F0E21287C0B800BFFED3 /* EquationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D4F0E01287C0B800BFFED3 /* EquationViewController.m */; };
-		A7D4F0E31287C0B800BFFED3 /* EquationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D4F0E11287C0B800BFFED3 /* EquationViewController.xib */; };
-		A7D4F0F71287CEA000BFFED3 /* RandomEquation.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D4F0F61287CEA000BFFED3 /* RandomEquation.m */; };
-		A7DBAB5012898F6E000F6CCA /* re.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB4B12898F6E000F6CCA /* re.png */; };
-		A7DBAB5112898F6E000F6CCA /* renewequation.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB4C12898F6E000F6CCA /* renewequation.png */; };
-		A7DBAB5212898F6E000F6CCA /* renotepad.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB4D12898F6E000F6CCA /* renotepad.png */; };
-		A7DBAB5312898F6E000F6CCA /* resolve.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB4E12898F6E000F6CCA /* resolve.png */; };
-		A7DBAB5412898F6E000F6CCA /* resolvehover.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB4F12898F6E000F6CCA /* resolvehover.png */; };
-		A7DBAB64128994A2000F6CCA /* reequationhover.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB63128994A2000F6CCA /* reequationhover.png */; };
-		A7DBAB6D128B967C000F6CCA /* rebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB6B128B967C000F6CCA /* rebutton.png */; };
-		A7DBAB6E128B967C000F6CCA /* rebuttonhover.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB6C128B967C000F6CCA /* rebuttonhover.png */; };
-		A7DBAB71128B9881000F6CCA /* redelete.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB6F128B9881000F6CCA /* redelete.png */; };
-		A7DBAB72128B9881000F6CCA /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DBAB70128B9881000F6CCA /* review.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,38 +59,46 @@
 		A72BCC291264198B00B5F410 /* NeverSnoozeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverSnoozeAppDelegate.m; sourceTree = "<group>"; };
 		A72BCC2C1264198C00B5F410 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		A72BCC381264198C00B5F410 /* ClockView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ClockView.xib; path = en.lproj/ClockView.xib; sourceTree = "<group>"; };
-		A72BCC45126419D700B5F410 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
-		A72BCC46126419D700B5F410 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
-		A72BCC47126419D700B5F410 /* 78-stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "78-stopwatch.png"; sourceTree = "<group>"; };
-		A73A41FD126E392F009BC468 /* AlarmListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmListController.h; path = ../AlarmListController.h; sourceTree = "<group>"; };
-		A73A41FE126E392F009BC468 /* AlarmListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmListController.m; path = ../AlarmListController.m; sourceTree = "<group>"; };
-		A78346541288EF3F004CF24D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		A783465F1288F326004CF24D /* alarmbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarmbg.png; sourceTree = "<group>"; };
+		A77E58E21298807100F39BA9 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
+		A77E58E31298807100F39BA9 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		A77E58E41298807100F39BA9 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		A77E58E51298807100F39BA9 /* 78-stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "78-stopwatch.png"; sourceTree = "<group>"; };
+		A77E58E61298807100F39BA9 /* alarmbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarmbg.png; sourceTree = "<group>"; };
+		A77E58E71298807100F39BA9 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		A77E58E81298807100F39BA9 /* re.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = re.png; sourceTree = "<group>"; };
+		A77E58E91298807100F39BA9 /* rebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rebutton.png; sourceTree = "<group>"; };
+		A77E58EA1298807100F39BA9 /* rebuttonhover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rebuttonhover.png; sourceTree = "<group>"; };
+		A77E58EB1298807100F39BA9 /* redelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redelete.png; sourceTree = "<group>"; };
+		A77E58EC1298807100F39BA9 /* reequationhover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reequationhover.png; sourceTree = "<group>"; };
+		A77E58ED1298807100F39BA9 /* renewequation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renewequation.png; sourceTree = "<group>"; };
+		A77E58EE1298807100F39BA9 /* renotepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renotepad.png; sourceTree = "<group>"; };
+		A77E58EF1298807100F39BA9 /* resolve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resolve.png; sourceTree = "<group>"; };
+		A77E58F01298807100F39BA9 /* resolvehover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resolvehover.png; sourceTree = "<group>"; };
+		A77E58F11298807100F39BA9 /* review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = review.png; sourceTree = "<group>"; };
+		A77E59031298808700F39BA9 /* alarm_clock_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm_clock_2.wav; sourceTree = "<group>"; };
+		A77E59061298809800F39BA9 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = en; path = en.lproj/EquationViewController.xib; sourceTree = "<group>"; };
+		A77E5907129880CB00F39BA9 /* AlarmListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmListController.h; sourceTree = "<group>"; };
+		A77E5908129880CB00F39BA9 /* AlarmListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmListController.m; sourceTree = "<group>"; };
+		A77E5909129880CB00F39BA9 /* EquationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationViewController.h; sourceTree = "<group>"; };
+		A77E590A129880CB00F39BA9 /* EquationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationViewController.m; sourceTree = "<group>"; };
+		A77E590F1298810200F39BA9 /* AdditionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionNode.h; sourceTree = "<group>"; };
+		A77E59101298810200F39BA9 /* AdditionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionNode.m; sourceTree = "<group>"; };
+		A77E59111298810200F39BA9 /* EquationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationNode.h; sourceTree = "<group>"; };
+		A77E59121298810200F39BA9 /* RandomEquation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomEquation.h; sourceTree = "<group>"; };
+		A77E59131298810200F39BA9 /* RandomEquation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomEquation.m; sourceTree = "<group>"; };
+		A77E59141298810200F39BA9 /* SubtractionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtractionNode.h; sourceTree = "<group>"; };
+		A77E59151298810200F39BA9 /* SubtractionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtractionNode.m; sourceTree = "<group>"; };
+		A77E59161298810200F39BA9 /* ValueNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueNode.h; sourceTree = "<group>"; };
+		A77E59171298810200F39BA9 /* ValueNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueNode.m; sourceTree = "<group>"; };
 		A7967239128725C6003A3C9D /* Alarms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Alarms.plist; sourceTree = "<group>"; };
 		A796730B12878412003A3C9D /* EditableDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableDetailCell.h; sourceTree = "<group>"; };
 		A796730C12878412003A3C9D /* EditableDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableDetailCell.m; sourceTree = "<group>"; };
-		A79673C91287AD9E003A3C9D /* alarm_clock_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm_clock_2.wav; sourceTree = "<group>"; };
 		A7985967128CF0780020B9B3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioToolbox.framework; sourceTree = "<group>"; };
 		A798597B128CF4660020B9B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
 		A7AD8DCA1285F4B200D4E145 /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
 		A7AD8DCB1285F4B200D4E145 /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
 		A7AD8E2D1286127500D4E145 /* AlarmEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmEditController.h; sourceTree = "<group>"; };
 		A7AD8E2E1286127500D4E145 /* AlarmEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmEditController.m; sourceTree = "<group>"; };
-		A7D4F0DF1287C0B800BFFED3 /* EquationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EquationViewController.h; path = ../EquationViewController.h; sourceTree = "<group>"; };
-		A7D4F0E01287C0B800BFFED3 /* EquationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquationViewController.m; path = ../EquationViewController.m; sourceTree = "<group>"; };
-		A7D4F0E11287C0B800BFFED3 /* EquationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquationViewController.xib; sourceTree = "<group>"; };
-		A7D4F0F51287CEA000BFFED3 /* RandomEquation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomEquation.h; path = ../RandomEquation.h; sourceTree = "<group>"; };
-		A7D4F0F61287CEA000BFFED3 /* RandomEquation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RandomEquation.m; path = ../RandomEquation.m; sourceTree = "<group>"; };
-		A7DBAB4B12898F6E000F6CCA /* re.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = re.png; sourceTree = "<group>"; };
-		A7DBAB4C12898F6E000F6CCA /* renewequation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renewequation.png; sourceTree = "<group>"; };
-		A7DBAB4D12898F6E000F6CCA /* renotepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renotepad.png; sourceTree = "<group>"; };
-		A7DBAB4E12898F6E000F6CCA /* resolve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resolve.png; sourceTree = "<group>"; };
-		A7DBAB4F12898F6E000F6CCA /* resolvehover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resolvehover.png; sourceTree = "<group>"; };
-		A7DBAB63128994A2000F6CCA /* reequationhover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reequationhover.png; sourceTree = "<group>"; };
-		A7DBAB6B128B967C000F6CCA /* rebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rebutton.png; sourceTree = "<group>"; };
-		A7DBAB6C128B967C000F6CCA /* rebuttonhover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rebuttonhover.png; sourceTree = "<group>"; };
-		A7DBAB6F128B9881000F6CCA /* redelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redelete.png; sourceTree = "<group>"; };
-		A7DBAB70128B9881000F6CCA /* review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = review.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,18 +131,17 @@
 		A72BCC101264198B00B5F410 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A7D4F0F51287CEA000BFFED3 /* RandomEquation.h */,
-				A7D4F0F61287CEA000BFFED3 /* RandomEquation.m */,
+				A77E590E1298810200F39BA9 /* RandomEquation */,
+				A77E5907129880CB00F39BA9 /* AlarmListController.h */,
+				A77E5908129880CB00F39BA9 /* AlarmListController.m */,
+				A77E5909129880CB00F39BA9 /* EquationViewController.h */,
+				A77E590A129880CB00F39BA9 /* EquationViewController.m */,
 				A796730B12878412003A3C9D /* EditableDetailCell.h */,
 				A796730C12878412003A3C9D /* EditableDetailCell.m */,
 				A72BCC281264198B00B5F410 /* NeverSnoozeAppDelegate.h */,
 				A72BCC291264198B00B5F410 /* NeverSnoozeAppDelegate.m */,
 				A7AD8E2D1286127500D4E145 /* AlarmEditController.h */,
 				A7AD8E2E1286127500D4E145 /* AlarmEditController.m */,
-				A73A41FD126E392F009BC468 /* AlarmListController.h */,
-				A73A41FE126E392F009BC468 /* AlarmListController.m */,
-				A7D4F0DF1287C0B800BFFED3 /* EquationViewController.h */,
-				A7D4F0E01287C0B800BFFED3 /* EquationViewController.m */,
 				A7AD8DCA1285F4B200D4E145 /* Alarm.h */,
 				A7AD8DCB1285F4B200D4E145 /* Alarm.m */,
 			);
@@ -150,12 +160,12 @@
 		A72BCC121264198B00B5F410 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A79673C91287AD9E003A3C9D /* alarm_clock_2.wav */,
-				A72BCC431264199700B5F410 /* Images */,
+				A77E59021298808700F39BA9 /* Sounds */,
+				A77E58E11298807100F39BA9 /* Images */,
 				A7967239128725C6003A3C9D /* Alarms.plist */,
-				A7D4F0E11287C0B800BFFED3 /* EquationViewController.xib */,
 				A72BCC211264198B00B5F410 /* NeverSnooze-Info.plist */,
 				A72BCC231264198B00B5F410 /* InfoPlist.strings */,
+				A77E59051298809800F39BA9 /* EquationViewController.xib */,
 				A72BCC2B1264198C00B5F410 /* MainWindow.xib */,
 				A72BCC371264198C00B5F410 /* ClockView.xib */,
 			);
@@ -182,26 +192,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A72BCC431264199700B5F410 /* Images */ = {
+		A77E58E11298807100F39BA9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A7DBAB4B12898F6E000F6CCA /* re.png */,
-				A7DBAB6F128B9881000F6CCA /* redelete.png */,
-				A7DBAB70128B9881000F6CCA /* review.png */,
-				A7DBAB6B128B967C000F6CCA /* rebutton.png */,
-				A7DBAB6C128B967C000F6CCA /* rebuttonhover.png */,
-				A7DBAB4C12898F6E000F6CCA /* renewequation.png */,
-				A7DBAB63128994A2000F6CCA /* reequationhover.png */,
-				A7DBAB4D12898F6E000F6CCA /* renotepad.png */,
-				A7DBAB4E12898F6E000F6CCA /* resolve.png */,
-				A7DBAB4F12898F6E000F6CCA /* resolvehover.png */,
-				A783465F1288F326004CF24D /* alarmbg.png */,
-				A78346541288EF3F004CF24D /* bg.png */,
-				A72BCC45126419D700B5F410 /* 11-clock.png */,
-				A72BCC46126419D700B5F410 /* 20-gear2.png */,
-				A72BCC47126419D700B5F410 /* 78-stopwatch.png */,
+				A77E58E21298807100F39BA9 /* 11-clock.png */,
+				A77E58E31298807100F39BA9 /* 19-gear.png */,
+				A77E58E41298807100F39BA9 /* 20-gear2.png */,
+				A77E58E51298807100F39BA9 /* 78-stopwatch.png */,
+				A77E58E61298807100F39BA9 /* alarmbg.png */,
+				A77E58E71298807100F39BA9 /* bg.png */,
+				A77E58E81298807100F39BA9 /* re.png */,
+				A77E58E91298807100F39BA9 /* rebutton.png */,
+				A77E58EA1298807100F39BA9 /* rebuttonhover.png */,
+				A77E58EB1298807100F39BA9 /* redelete.png */,
+				A77E58EC1298807100F39BA9 /* reequationhover.png */,
+				A77E58ED1298807100F39BA9 /* renewequation.png */,
+				A77E58EE1298807100F39BA9 /* renotepad.png */,
+				A77E58EF1298807100F39BA9 /* resolve.png */,
+				A77E58F01298807100F39BA9 /* resolvehover.png */,
+				A77E58F11298807100F39BA9 /* review.png */,
 			);
-			name = Images;
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A77E59021298808700F39BA9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A77E59031298808700F39BA9 /* alarm_clock_2.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A77E590E1298810200F39BA9 /* RandomEquation */ = {
+			isa = PBXGroup;
+			children = (
+				A77E590F1298810200F39BA9 /* AdditionNode.h */,
+				A77E59101298810200F39BA9 /* AdditionNode.m */,
+				A77E59111298810200F39BA9 /* EquationNode.h */,
+				A77E59121298810200F39BA9 /* RandomEquation.h */,
+				A77E59131298810200F39BA9 /* RandomEquation.m */,
+				A77E59141298810200F39BA9 /* SubtractionNode.h */,
+				A77E59151298810200F39BA9 /* SubtractionNode.m */,
+				A77E59161298810200F39BA9 /* ValueNode.h */,
+				A77E59171298810200F39BA9 /* ValueNode.m */,
+			);
+			path = RandomEquation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,24 +289,24 @@
 				A72BCC251264198B00B5F410 /* InfoPlist.strings in Resources */,
 				A72BCC2D1264198C00B5F410 /* MainWindow.xib in Resources */,
 				A72BCC391264198C00B5F410 /* ClockView.xib in Resources */,
-				A72BCC48126419D700B5F410 /* 11-clock.png in Resources */,
-				A72BCC49126419D700B5F410 /* 20-gear2.png in Resources */,
-				A72BCC4A126419D700B5F410 /* 78-stopwatch.png in Resources */,
 				A796723A128725C6003A3C9D /* Alarms.plist in Resources */,
-				A79673CA1287AD9E003A3C9D /* alarm_clock_2.wav in Resources */,
-				A7D4F0E31287C0B800BFFED3 /* EquationViewController.xib in Resources */,
-				A78346551288EF3F004CF24D /* bg.png in Resources */,
-				A78346601288F326004CF24D /* alarmbg.png in Resources */,
-				A7DBAB5012898F6E000F6CCA /* re.png in Resources */,
-				A7DBAB5112898F6E000F6CCA /* renewequation.png in Resources */,
-				A7DBAB5212898F6E000F6CCA /* renotepad.png in Resources */,
-				A7DBAB5312898F6E000F6CCA /* resolve.png in Resources */,
-				A7DBAB5412898F6E000F6CCA /* resolvehover.png in Resources */,
-				A7DBAB64128994A2000F6CCA /* reequationhover.png in Resources */,
-				A7DBAB6D128B967C000F6CCA /* rebutton.png in Resources */,
-				A7DBAB6E128B967C000F6CCA /* rebuttonhover.png in Resources */,
-				A7DBAB71128B9881000F6CCA /* redelete.png in Resources */,
-				A7DBAB72128B9881000F6CCA /* review.png in Resources */,
+				A77E58F21298807100F39BA9 /* 11-clock.png in Resources */,
+				A77E58F31298807100F39BA9 /* 19-gear.png in Resources */,
+				A77E58F41298807100F39BA9 /* 20-gear2.png in Resources */,
+				A77E58F51298807100F39BA9 /* 78-stopwatch.png in Resources */,
+				A77E58F61298807100F39BA9 /* alarmbg.png in Resources */,
+				A77E58F71298807100F39BA9 /* bg.png in Resources */,
+				A77E58F81298807100F39BA9 /* re.png in Resources */,
+				A77E58F91298807100F39BA9 /* rebutton.png in Resources */,
+				A77E58FA1298807100F39BA9 /* rebuttonhover.png in Resources */,
+				A77E58FB1298807100F39BA9 /* redelete.png in Resources */,
+				A77E58FC1298807100F39BA9 /* reequationhover.png in Resources */,
+				A77E58FD1298807100F39BA9 /* renewequation.png in Resources */,
+				A77E58FE1298807100F39BA9 /* renotepad.png in Resources */,
+				A77E58FF1298807100F39BA9 /* resolve.png in Resources */,
+				A77E59001298807100F39BA9 /* resolvehover.png in Resources */,
+				A77E59011298807100F39BA9 /* review.png in Resources */,
+				A77E59041298808700F39BA9 /* alarm_clock_2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +319,15 @@
 			files = (
 				A72BCC271264198B00B5F410 /* main.m in Sources */,
 				A72BCC2A1264198B00B5F410 /* NeverSnoozeAppDelegate.m in Sources */,
-				A73A41FF126E392F009BC468 /* AlarmListController.m in Sources */,
 				A7AD8DCC1285F4B200D4E145 /* Alarm.m in Sources */,
 				A7AD8E2F1286127500D4E145 /* AlarmEditController.m in Sources */,
 				A796730D12878412003A3C9D /* EditableDetailCell.m in Sources */,
-				A7D4F0E21287C0B800BFFED3 /* EquationViewController.m in Sources */,
-				A7D4F0F71287CEA000BFFED3 /* RandomEquation.m in Sources */,
+				A77E590B129880CB00F39BA9 /* AlarmListController.m in Sources */,
+				A77E590C129880CB00F39BA9 /* EquationViewController.m in Sources */,
+				A77E59181298810200F39BA9 /* AdditionNode.m in Sources */,
+				A77E59191298810200F39BA9 /* RandomEquation.m in Sources */,
+				A77E591A1298810200F39BA9 /* SubtractionNode.m in Sources */,
+				A77E591B1298810200F39BA9 /* ValueNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +356,14 @@
 				A72BCC381264198C00B5F410 /* ClockView.xib */,
 			);
 			name = ClockView.xib;
+			sourceTree = "<group>";
+		};
+		A77E59051298809800F39BA9 /* EquationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77E59061298809800F39BA9 /* en */,
+			);
+			name = EquationViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

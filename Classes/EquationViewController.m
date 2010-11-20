@@ -44,7 +44,7 @@
 
 - (IBAction) pressedSolve:(id)sender
 {
-    if([_equationField.text isEqualToString:[NSString stringWithFormat:@"%i",[_equation answer]]]) {
+    if([_equationField.text isEqualToString:[NSString stringWithFormat:@"%d",[_equation solve]]]) {
         [_audioPlayer stop];
         [self dismissModalViewControllerAnimated:YES];
     } else {
@@ -56,7 +56,7 @@
 
 - (IBAction) pressedView:(id)sender
 {
-    _equationField.text = [NSString stringWithFormat:@"%i",[_equation answer]];
+    _equationField.text = [NSString stringWithFormat:@"%d",[_equation solve]];
     _equationField.textColor = [UIColor redColor];
 }
 
