@@ -8,10 +8,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ClockDelegate.h"
 
-int main(int argc, char *argv[]) {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    [pool release];
-    return retVal;
+@interface ClockViewController : UIViewController <ClockDelegate> {
+    UILabel *clockLabel;
+    NSTimer *myTimer;
 }
+
+@property (nonatomic, retain) NSTimer *myTimer;
+@property (nonatomic, retain) IBOutlet UILabel *clockLabel;
+
+- (void) showActivity;
+
+@end

@@ -1,55 +1,75 @@
 //
-//  NeverSnoozeAppDelegate.m
-//  NeverSnooze
+//    ___ ___ _ _ ___ ___ ___ ___ ___ ___ ___ ___ 
+//   |   | -_| | | -_|  _|_ -|   | . | . |- _| -_|
+//   |_|_|___|\_/|___|_| |___|_|_|___|___|___|___|
 //
-//  Created by pete on 10/5/10.
-//  Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+//  Created by pete on 10/11/10.
+//  Copyright (c) 2010 Brousalis Enterprises, LLC. All rights reserved.
 //
 
 #import "NeverSnoozeAppDelegate.h"
-#import "NeverSnoozeViewController.h"
+#import "ClockViewController.h"
+#import "AlarmListController.h"
+#import "EquationViewController.h"
+#import "Alarm.h"
 
 @implementation NeverSnoozeAppDelegate
 
-@synthesize window, viewController;
+@synthesize window = _window;
+@synthesize navigationController = _navigationController;
+@synthesize listController = _listController;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-
-    [window addSubview:viewController.view];
+- (void)applicationDidFinishLaunching:(UIApplication *)application 
+{
+    CGRect rect = [[UIScreen mainScreen] bounds];
+    UIWindow *window = [[UIWindow alloc] initWithFrame:rect];
+    [self setWindow:window];
+    
+    AlarmListController *tableViewController = [[AlarmListController alloc] 
+                                                initWithStyle:UITableViewStylePlain];
+    [self setListController:tableViewController];
+    
+    UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:tableViewController];
+    
+    [self setNavigationController:navController];
+    
+    [window addSubview:[navController view]];
     [window makeKeyAndVisible];
 	
-    wasEnterForeground = NO;
-	didEnterBackground = NO;
-    
-    return YES;
+    [window release];
+    [navController release];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application { }
 - (void)applicationDidBecomeActive:(UIApplication *)application { }
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-	didEnterBackground = YES;
-}
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-	wasEnterForeground = YES;
-}
+- (void)applicationDidEnterBackground:(UIApplication *)application { }
+- (void)applicationWillEnterForeground:(UIApplication *)application { }
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
-	if (wasEnterForeground || didEnterBackground) {
-		wasEnterForeground = NO;
-		didEnterBackground = NO;
-	}
-	else {
-		[viewController endTimer];
-		didEnterBackground = NO;
-	}
+    
+    EquationViewController *controller = [[EquationViewController alloc] init];
+    
+    UINavigationController *newNavController = [[UINavigationController alloc]
+                                                initWithRootViewController:controller];
+    
+    newNavController.navigationBarHidden = YES;
+    [_navigationController presentModalViewController:newNavController
+                                                   animated:YES];
+    
+    [controller release];
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {	
-	
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    [_listController save];
 }
+
+#pragma mark -
+#pragma mark Memory management
 
 - (void)dealloc {
-    [viewController release];
-    [window release];
+    [_navigationController release];
+    [_window release];
     [super dealloc];
 }
 
